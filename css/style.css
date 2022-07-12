@@ -1,0 +1,654 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rajdhani:wght@600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #e9e9e9;
+}
+
+.aside {
+  width: 100%;
+  height: 120px;
+}
+
+.aside ul {
+  width: 100%;
+  height: 30px;
+  background-color: #555454;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+  padding-right: 25px;
+}
+
+.aside ul li {
+  list-style: none;
+}
+
+.aside ul li a {
+  text-decoration: none;
+  color: black;
+  color: white;
+  font-size: 11px;
+}
+
+.aside .white {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+}
+
+.aside .login {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aside .login p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 7px;
+  margin-left: 10px;
+}
+
+.aside .login p a {
+  text-decoration: none;
+  color: black;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.aside .login p a:hover {
+  color: #cc0000;
+}
+
+.aside .login .icon {
+  width: 180px;
+  margin-left: 35px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aside .login .icon a .fa-facebook-f {
+  color: #ffffff;
+  padding: 6px 9px;
+  background-color: #020b85;
+  border-radius: 50%;
+}
+
+.aside .login .icon a .fa-facebook-f:hover {
+  color: #020b85;
+  background-color: #e9e9e9;
+  border: 1px solid #020b85;
+}
+
+.aside .login .icon a .fa-twitter {
+  color: #fff;
+  padding: 7px 7px;
+  background-color: #04d9f5;
+  border-radius: 50%;
+}
+
+.aside .login .icon a .fa-twitter:hover {
+  color: #04d9f5;
+  background-color: #e9e9e9;
+  border: 1px solid #04d9f5;
+}
+
+.aside .login .icon a .fa-youtube {
+  color: #fff;
+  padding: 7px 6px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.aside .login .icon a .fa-youtube:hover {
+  color: red;
+  background-color: #e9e9e9;
+  border: 1px solid red;
+}
+
+.aside .login .icon a .fa-instagram {
+  color: #fff;
+  padding: 7px;
+  background-color: #c93e94;
+  border-radius: 50%;
+}
+
+.aside .login .icon a .fa-instagram:hover {
+  color: #c93e94;
+  background-color: #e9e9e9;
+  border: 1px solid #c93e94;
+}
+
+header {
+  width: 100%;
+  height: 45px;
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+
+header h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header h1 p i {
+  font-size: 15px;
+  color: white;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+}
+
+header ul li {
+  list-style: none;
+  padding: 10px 5px;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Rajdhani", sans-serif;
+}
+
+header ul li:hover {
+  background-color: #be2c00;
+}
+
+header nav input {
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  outline: none;
+  font-size: 15px;
+  background-color: #be2c00;
+  color: white;
+  border: 1px solid #be2c00;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container-1 {
+  width: 67%;
+  padding: 10px;
+}
+
+main .container-1 .article-1 p a {
+  text-decoration: none;
+  color: black;
+}
+
+main .container-1 .article-1 h1 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+main .container-1 .article-2 img {
+  width: 100%;
+}
+
+main .container-1 .article-2 p {
+  color: #979797;
+}
+
+main .container-1 .article-3 {
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+main .container-1 .article-4 iframe {
+  width: 600px;
+  height: 270px;
+}
+
+main .container-1 .article-4 p mark {
+  border-radius: 3px;
+}
+
+main .container-1 .article-4 p mark a {
+  text-decoration: none;
+  color: black;
+}
+
+main .container-1 .article-5 {
+  width: 100%;
+  padding: 20px;
+  background-color: #e9e9e9;
+}
+
+main .container-1 .article-5 a {
+  padding: 5px 12px;
+  background-color: #333;
+  color: white;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+main .container-1 .article-5 a:hover {
+  background-color: #cc0000;
+  padding: 7px 14px;
+  font-size: 16px;
+}
+
+main .container-1 .article-6 h3 i {
+  color: #cc0000;
+}
+
+main .container-1 .article-6 .garis {
+  background-color: #cc0000;
+  height: 3px;
+  margin-top: 5px;
+}
+
+main .container-1 .article-6 h3 a {
+  text-decoration: none;
+  color: black;
+}
+
+main .container-1 .article-6 h3 a:hover {
+  color: #cc0000;
+}
+
+main .container-1 .article-7 h3 i {
+  color: #cc0000;
+}
+
+main .container-1 .article-7 .garis {
+  background-color: #cc0000;
+  height: 3px;
+  margin-top: 5px;
+}
+
+main .container-1 .article-7 section {
+  width: 100%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+}
+
+main .container-1 .article-7 section .item {
+  width: 22%;
+  height: 270px;
+  background-color: #ECE1D4;
+  border-radius: 5px;
+}
+
+main .container-1 .article-7 section .item img {
+  width: 100%;
+  height: 130px;
+}
+
+main .container-1 .article-7 section .item .judul {
+  background-color: #ECE1D4;
+  padding: 5px 12px;
+  text-decoration: none;
+  color: black;
+  color: #cc0000;
+  position: absolute;
+  margin-top: -33px;
+  font-weight: bold;
+}
+
+main .container-1 .article-7 section .item .isi {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+main .container-1 .article-8 h3 i {
+  color: #cc0000;
+}
+
+main .container-1 .article-8 .garis {
+  background-color: #cc0000;
+  height: 3px;
+  margin-top: 5px;
+}
+
+main .container-1 .article-8 nav {
+  width: 100%;
+  height: 350px;
+  background-color: #f1f1f1;
+  padding: 25px 20px;
+  text-align: center;
+}
+
+main .container-1 .article-8 nav textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  border: 1px solid #a7a7a7;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+}
+
+main .container-1 .article-8 nav p {
+  font-size: 11px;
+  color: #979797;
+  text-align: start;
+}
+
+main .container-1 .article-8 nav button {
+  padding: 8px 15px;
+  background-color: #be2c00;
+  border: 1px solid #be2c00;
+  border-radius: 5px;
+  float: right;
+}
+
+main .container-1 .article-8 nav button a {
+  text-decoration: none;
+  color: black;
+  color: white;
+}
+
+main .container-1 .article-8 nav button:hover {
+  background-color: #a32600;
+}
+
+main .container-1 .article-8 .lanjut {
+  text-decoration: none;
+  color: black;
+  color: white;
+  font-family: "Rajdhani", sans-serif;
+  padding: 10px;
+  background-color: #979797;
+}
+
+main .container-1 .article-8 .lanjut:hover {
+  background-color: #555454;
+}
+
+main .container-1 .article-9 {
+  width: 100%;
+  height: 400px;
+}
+
+main .container-1 .article-9 h3 i {
+  color: #cc0000;
+}
+
+main .container-1 .article-9 .garis {
+  background-color: #cc0000;
+  height: 3px;
+  margin-top: 5px;
+}
+
+main .container-1 .article-9 table {
+  width: 70%;
+  height: 150px;
+  margin: auto;
+  text-align: center;
+}
+
+main .container-1 .article-9 table thead tr th {
+  padding: 5px 10px;
+  background-color: #cc0000;
+  color: white;
+}
+
+main .container-1 .article-9 table tbody tr td {
+  padding: 2px 5px;
+}
+
+main .container-2 {
+  width: 32%;
+}
+
+main .container-2 .article-1 {
+  margin-top: 30px;
+}
+
+main .container-2 .article-1 h3 i {
+  color: #cc0000;
+}
+
+main .container-2 .article-1 .garis {
+  background-color: #cc0000;
+  height: 3px;
+  margin-top: 5px;
+}
+
+main .container-2 .article-1 nav {
+  width: 100%;
+  height: 80px;
+  background-color: #f1f1f1;
+}
+
+main .container-2 .article-1 iframe {
+  width: 100%;
+  height: 200px;
+}
+
+main .container-2 .article-2 .kotak {
+  width: 100%;
+  height: 500px;
+  background-color: #f1f1f1;
+}
+
+main .container-2 .article-2 h3 i {
+  color: #cc0000;
+}
+
+main .container-2 .article-2 .garis {
+  background-color: #cc0000;
+  height: 3px;
+  margin-top: 5px;
+}
+
+main .container-2 .article-2 .item {
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 5px;
+}
+
+main .container-2 .article-2 .item h4 {
+  padding: 4px 12px;
+  background-color: #555454;
+  color: white;
+}
+
+main .container-2 .article-2 .item img {
+  width: 30%;
+  height: 100%;
+}
+
+main .container-2 .article-2 .item strong {
+  width: 65%;
+}
+
+main .container-2 .article-2 .item strong a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+main .container-2 .article-2 .item strong a:hover {
+  color: #cc0000;
+}
+
+main .container-2 .article-3 .atas, main .container-2 .article-4 .atas, main .container-2 .article-5 .atas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container-2 .article-3 .atas img, main .container-2 .article-4 .atas img, main .container-2 .article-5 .atas img {
+  width: 40%;
+  height: 45px;
+}
+
+main .container-2 .article-3 .atas .garis, main .container-2 .article-4 .atas .garis, main .container-2 .article-5 .atas .garis {
+  background-color: #cc0000;
+  width: 60%;
+  height: 4px;
+  margin-top: 5px;
+}
+
+main .container-2 .article-3 .item, main .container-2 .article-4 .item, main .container-2 .article-5 .item {
+  width: 100%;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+main .container-2 .article-3 .item img, main .container-2 .article-4 .item img, main .container-2 .article-5 .item img {
+  width: 60%;
+  height: 100%;
+}
+
+main .container-2 .article-3 .item a, main .container-2 .article-4 .item a, main .container-2 .article-5 .item a {
+  text-decoration: none;
+  color: black;
+  color: #cc0000;
+  font-weight: 1000;
+  font-size: 14px;
+}
+
+main .container-2 .article-3 .item a:hover, main .container-2 .article-4 .item a:hover, main .container-2 .article-5 .item a:hover {
+  color: #333;
+}
+
+main .container-2 .article-6 .atas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container-2 .article-6 .atas h3 {
+  width: 40%;
+  height: 45px;
+  color: #cc0000;
+  font-size: 18px;
+}
+
+main .container-2 .article-6 .atas .garis {
+  background-color: #cc0000;
+  width: 60%;
+  height: 4px;
+  margin-top: -20px;
+}
+
+main .container-2 .article-6 .item {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 5px;
+}
+
+main .container-2 .article-6 .item a {
+  text-decoration: none;
+  color: black;
+  color: white;
+  padding: 5px 15px;
+  background-color: #cc0000;
+  font-size: 14px;
+}
+
+footer {
+  width: 80%;
+  height: 240px;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  color: white;
+}
+
+footer a:hover {
+  color: yellow;
+}
+
+footer hr {
+  border: 1px dashed white;
+}
+/*# sourceMappingURL=style.css.map */
